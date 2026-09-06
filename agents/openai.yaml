@@ -1,0 +1,7 @@
+interface:
+  display_name: "合同功能核验工作流"
+  short_description: "按 PDF 核验合同功能并整理可追溯风险结论"
+  brand_color: "#2563EB"
+  default_prompt: "Use $contract-review-workflow to review a contract PDF, compare it with a designated baseline, and produce a concise evidence-based risk report."
+policy:
+  allow_implicit_invocation: true
